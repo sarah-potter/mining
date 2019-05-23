@@ -223,7 +223,7 @@ new ScrollMagic.Scene({
 
 .setTween(scene1animate)
 .setPin(mainWrapper)
-.addIndicators()
+
 .addTo(controller);
 
 
@@ -238,7 +238,7 @@ new ScrollMagic.Scene({
 
 .setTween(scene2animate)
 .setPin(mainWrapper)
-.addIndicators()
+
 .addTo(controller);
 
 
@@ -299,7 +299,7 @@ new ScrollMagic.Scene({
 
 // set hero block fixed for duration of wrapper
 .setPin(mainWrapper)
-.addIndicators()
+
 .addTo(controller);
 
 // Scene 4
@@ -352,7 +352,7 @@ new ScrollMagic.Scene({
 
 // set hero block fixed for duration of wrapper
 .setPin(mainWrapper)
-.addIndicators()
+
 .addTo(controller);
 
 
@@ -370,7 +370,7 @@ new ScrollMagic.Scene({
 
 // set hero block fixed for duration of wrapper
 .setPin(mainWrapper)
-.addIndicators()
+
 .addTo(controller);
 
 
@@ -429,5 +429,5 @@ new ScrollMagic.Scene({
 
 // set hero block fixed for duration of wrapper
 .setPin(mainWrapper)
-.addIndicators()
+
 .addTo(controller);
