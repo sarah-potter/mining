@@ -1,0 +1,186 @@
+h1, h2, h3, h4, h5, h6, p, ul, li, span {
+	font-family: 'proxima-nova', sans-serif;
+}
+.right-align{
+	text-align: right;
+}
+#hero-block {
+    display: block !important;
+    width: 29%;
+    height: auto;
+    position: relative;
+    margin: 18% auto 0 auto !important;
+    text-align: center;
+}
+.heroWrap{
+    position: absolute;
+    width: 100%;
+    background: url('flow-bg.svg');
+    min-height: 35em;
+    display: block;
+    background-repeat: no-repeat;
+    height: 110%;
+    background-position-y: 0px;
+}
+.scene{
+    position: absolute;
+    top: 2em;
+}
+#scene1 {
+    display: block;
+    width: 100%;
+}
+#scene2 {
+    display: block;
+    width: 100%;
+
+}
+.heading-block{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    text-align: center;
+    margin-bottom: 0em;
+    opacity: 0;
+    transform: translateY(-100%);
+}
+.sub-block {
+    display: block;
+    width: 16em;
+    margin: -25px;
+    position: fixed;
+    opacity: 0;
+    transform: translateY(-100%);
+}
+.heading-block h3{
+	color: #00b7e2;
+	font-size: 2.5em;
+}
+.sub-block h4{
+	font-size: 1.5em;
+	font-weight: 800;
+	margin-bottom: 0;
+}
+p.description{
+	margin-top: 0;
+}
+.sub-block--left-top {
+  right: auto;
+  left: 12%;
+}
+.sub-block--top-center{
+ left: 45%;	 
+}
+.sub-block--right-top, .sub-block--right-bottom {
+  right: calc(7% + 150px);
+  left: auto;
+}
+.sub-block--left-top {
+  top: calc(40% - 50px);
+}
+.sub-block--right-top {
+  top: calc(32% - 50px);
+}
+.sub-block--top-center {
+  top: calc(15% + 50px);
+}
+.sub-block--right-bottom {
+  top: calc(50% + 50px);
+}
+#BldgShield{
+	width: 50%;
+	opacity: 0;
+}
+
+
+/* Called in Elements */
+#paintGuy, #trees, #bossGuy, #surveyGuy, #drillGuy, #cone1, #cone2, #cone3,
+
+#trailer, #liftGuys, #frontBox, #backBox, #droppedBox, #boxOnPalet, #forklift, #grey_car, #bluePipes, #bluePipes2,
+
+#blueHorizon, #blackHorizon,
+
+#greenTank1, #greenTank2, #greenTank3, #workVan, #powerLineGuy, #electricalGuy, #fuelGuy,
+
+#glowGroup, #goldGlow, #glow1, #glow2, #glow3, #glow4, #greenGlow,
+
+#magicCoins1, #mineGuy, #mineFan1, #mineFan2, #mineFan3, #cloud1, #cloud2,
+#topCoin1, #topCoin2, #middleCoin1, #middleCoin2, #bottomCoin1, #bottomCoin2,
+
+#truckWithTrailer, #binFence, #bins, #garbageMan, #binFence_1_, #binFence_2_, #energyOnPallete, #computerGuy,
+
+#drillGuy_1_, #drkshield, #powerLights, #hood, #house, #snowOnGarage, #snowonhouseback, #snowonhouse, #snowontrim, #snowontriem2, #hosueLights, #snowOnPipes, #snowOnGarage, #treesnow, #snowPlow, #snow, #snowOnBldg1,
+
+#map, #idaho, #cali, #seattle, #austin, #nola, #scarolina, #virginia, #philly, #jersey,  #cityscape
+
+{ opacity: 0; }
+
+#footer{
+	width: 100%;
+	height: 45em;
+	background: #000;
+	color: #FFF;
+}
+@media screen and (max-width: 1299px) {
+
+	.heroWrap{
+		height: 80%; min-height: 35em;
+	}
+
+	.heading-block{
+		top: -.5em;
+	}
+	.heading-block h3{
+		font-size: 2.25em;
+	}
+	.sub-block h4{
+		font-size: 1.25em;
+	}
+	p.description{
+		font-size: .95em;
+	}
+	.sub-block--left-top{
+		left: 2%;
+		top: calc(25% - 50px);
+	}
+	.sub-block--top-center{
+		top: calc(4% + 50px);
+	}
+	.sub-block--right-top{
+		right: 4%;
+		top: calc(25% - 50px);
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	.heroWrap{
+		height: auto; min-height: 30em;
+	}
+	.heading-block{
+		top: -1em;
+	}
+	.heading-block h3{
+		font-size: 2em;
+	}
+	.sub-block h4{
+		font-size: 1.125em;
+	}
+	p.description{
+		font-size: .95em;
+	}
+
+	.sub-block--left-top{
+		left: 2%;
+		top: calc(25% - 50px);
+	}
+	.sub-block--top-center{
+		top: calc(4% + 50px);
+	}
+	.sub-block--right-top{
+		right: 4%;
+		top: calc(25% - 50px);
+	}
+}
