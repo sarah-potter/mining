@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, span {
     position: absolute;
     width: 100%;
     background: url('flow-bg.svg');
+    background-size: 100%;
     min-height: 35em;
     display: block;
     background-repeat: no-repeat;
